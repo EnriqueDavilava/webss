@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 1000px;
+    margin: auto;
+    
+}
+#menuprincipal{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    height: 100px;
+    align-items: center;
+    margin: 20px;
+}
+#logo{
+    border-radius: ;
+    border: 1px solid red;
+}
+#menu1{
+    color: green;
+    text-decoration: none;
+}
+#rewards1{
+    color: black;
+    text-decoration: none;
+}
+#inicios1{
+    border: 1px solid black;
+    border-radius: 90px;
+    padding: 5px;
+    width:  auto;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#registrate1{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 90px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#tienda1{
+    text-decoration: none;
+    color: black;
+}
+#subtitulo{
+    width: 15%;
+}
+#contenido{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#titulo{
+    color: red;
+}
+#productos{
+    width: 60%;
+    background-image: url(img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#productos1{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.circulo{
+    border-radius: 50%;
+}
+
+#tipos{
+    width: 30%;
+    text-align: left;
+    justify-content: space-between;
+    display: inline-block;
+    background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+#menu-secundario{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin: 20px;
+    justify-content: space-around;
+}
+#menu-secundario>div>a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    margin: 10px;
+}
+#redes{
+    margin: auto;
+}
+#redes1{
+    justify-content: left;
+}
+#derechos{
+    width: 400px;
+}
+#libro{
+    margin-left: 1180px;
+    margin-top: -50px;
+}

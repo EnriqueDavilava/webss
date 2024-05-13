@@ -1,0 +1,124 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 1250px;
+    margin: auto;
+    
+}
+#menuprincipal{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    height: 100px;
+    align-items: center;
+    margin: 20px;
+}
+#logo{
+    border-radius: ;
+    border: 1px solid red;
+}
+#menu1{
+    color: green;
+    text-decoration: none;
+}
+#rewards1{
+    color: black;
+    text-decoration: none;
+}
+#inicios1{
+    border: 1px solid black;
+    border-radius: 90px;
+    padding: 5px;
+    width:  auto;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#registrate1{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 90px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#tienda1{
+    text-decoration: none;
+    color: black;
+}
+
+#contenido{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(img/ladrillos12w.png);
+}
+.contenido-1{
+    display: flex;
+}
+.pentagono-1{
+    text-align: center;
+    height: 290px;
+    width: 600px;;
+}
+.titulo{
+    margin-top: 45px;
+    color: green;
+}
+.texto{
+    margin: 50px;
+    color: green;
+}
+.contenido-2{
+    display: flex;
+    text-align: center;
+}
+.pentagono-2{
+    height: 290px;
+    width: 600px;;
+}
+.cuadra{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border-radius: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 8px;
+    
+}
+#menu-secundario{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin: 20px;
+    justify-content: space-around;
+}
+#menu-secundario>div>a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    margin: 10px;
+}
+#redes{
+    margin: auto;
+}
+#redes1{
+    justify-content: left;
+}
+#derechos{
+    width: 400px;
+}
+#libro{
+    margin-left: 1180px;
+    margin-top: -50px;
+}
